@@ -1,0 +1,631 @@
+[
+    {
+        "name" : "sinus_rhythm",
+        "type" : "category",
+        "description" : "Ритм синусовый",
+        "value" :
+        [
+            {
+                "name" : "regular_normosystole",
+                "type" : "diagnosis",
+                "value" : "Регулярный, нормосистолия",
+                "level" : "green"
+            },
+            {
+                "name" : "sinus_tachycardia",
+                "type" : "diagnosis",
+                "value" : "Синусовая тахикардия",
+                "level" : "yellow"
+            },
+            {
+                "name" : "sinus_bradycardia",
+                "type" : "diagnosis",
+                "value" : "Синусовая брадикардия",
+                "level" : "yellow"
+            },
+            {
+                "name" : "sinus_arrhythmia",
+            
+                "type" : "diagnosis",
+                "value" : "Синусовая аритмия",
+                "level" : "yellow"
+            }
+        ]
+    },
+    {
+        "name" : "incorrect_rhythm",
+        "type" : "category",
+        "description" : "Неправильный ритм",
+        "value" : 
+        [
+            {
+                "name" : "atrial_rhythm",
+                "type" : "diagnosis",
+                "value" : "Предсердный ритм",
+                "level" : "yellow"
+            },
+            {
+                "name" : "atrial_fibrillation",
+                "type" : "diagnosis",
+                "value" : "Фибрилляция предсердий",
+                "level" : "red"
+            },
+            {
+                "name" : "atrial_flutter",
+                "type" : "diagnosis",
+                "value" : "Трепетание предсердий",
+                "level" : "red"
+            },
+            {
+                "name" : "atrioventricular_nodal_tachycardia",
+                "type" : "diagnosis",
+                "value" : "Атриовентрикулярная узловая тахикардия",
+                "level" : "red"
+            },
+            {
+                "name" : "supraventricular_tachycardia",
+                "type" : "diagnosis",
+                "value" : "Суправентрикулярная тахикардия",
+                "level" : "red"
+            },
+            {
+                "name" : "WPW_syndrome",
+                "type" : "diagnosis",
+                "value" : "Синдром WPW",
+                "level" : "yellow"
+            },
+            {
+                "name" : "ventricular_tachycardia",
+                "type" : "diagnosis",
+                "value" : "Желудочковая тахикардия",
+                "level" : "red"
+            },
+            {
+                "name" : "tachycardia_pirouette",
+                "type" : "diagnosis",
+                "value" : "Тахикардия типа «пируэт»",
+                "level" : "red"
+            },
+            {
+                "name" : "nodal_rhythm",
+                "type" : "diagnosis",
+                "value" : "Узловой ритм",
+                "level" : "red"
+            }
+        ]
+    },
+    {
+        "name" : "blockade",
+        "type" : "category",
+        "description" : "Блокады",
+        "value" : 
+        [
+            {
+                "name" : "CA_blockade",
+                "type" : "diagnosis",
+                "value" : "СА блокада",
+                "level" : "yellow"
+            },
+            {
+                "name" : "AV_blockade_I_st",
+                "type" : "diagnosis",
+                "value" : "АВ-блокада I ст",
+                "level" : "yellow"
+            },
+            {
+                "name" : "AV_blockade_II_st_1_type",
+                "type" : "diagnosis",
+                "value" : "АВ-блокада II ст 1 тип",
+                "level" : "red"
+            },
+            {
+                "name" : "AV_blockade_II_st_2_type",
+                "type" : "diagnosis",
+                "value" : "АВ-блокада II ст 2 тип",
+                "level" : "red"
+            },
+            {
+                "name" : "AV_blockade_III_st",
+                "type" : "diagnosis",
+                "value" : "АВ-блокада III ст",
+                "level" : "red"
+            },
+            {
+                "name" : "AV_dissociation",
+                "type" : "diagnosis",
+                "value" : "АВ диссоциация",
+                "level" : "red"
+            }
+        ]
+    },
+    {
+        "name" : "extrasystoles",
+        "type" : "category",
+        "description" : "Экстрасистолы",
+        "value" :
+        [
+            {
+                "name" : "atrial",
+                "type" : "diagnosis",
+                "value" : "Предсердные",
+                "level" : "yellow"
+            },
+            {
+                "name" : "nodal",
+                "type" : "diagnosis",
+                "value" : "Узловые",
+                "level" : "yellow"
+            },
+            {
+                "name" : "ventricular",
+                "type" : "diagnosis",
+                "value" : "Желудочковые",
+                "level" : "yellow"
+            }
+        ]
+    },
+    {
+        "name" : "p_wave",
+        "type" : "category",
+        "description" : "Зубец Р",
+        "value" :
+        [
+            {
+                "name" : "extension_left_atrium",
+                "type" : "diagnosis",
+                "value" : "Расширение левого предсердия",
+                "level" : "yellow"
+            },
+            {
+                "name" : "extension_right_atrium",
+                "type" : "diagnosis",
+                "value" : "Расширение правого предсердия",
+                "level" : "yellow"
+            },
+            {
+                "name" : "expansion_both_atria",
+                "type" : "diagnosis",
+                "value" : "Расширение обоих предсердий",
+                "level" : "yellow"
+            }
+        ]
+    },
+    {
+        "name" : "shortened_PQ",
+        "type" : "diagnosis",
+        "value" : "Укороченный P-Q",
+        "level" : "yellow"
+    },
+    {
+        "name" : "elongated_PQ",
+        "type" : "diagnosis",
+        "value" : "Удлиненный P-Q",
+        "level" : "yellow"
+    },
+    {
+        "name" : "electric_axis",
+        "type" : "category",
+        "description" : "Электрическая ось",
+        "value" : 
+        [
+            {
+                "name" : "vertical",
+                "type" : "diagnosis",
+                "value" : "Вертикальная",
+                "level" : "green"
+            },
+            {
+                "name" : "horizontal",
+                "type" : "diagnosis",
+                "value" : "Горизонтальная",
+                "level" : "green"
+            },
+            {
+                "name" : "normal",
+                "type" : "diagnosis",
+                "value" : "Нормальная",
+                "level" : "green"
+            },
+            {
+                "name" : "deviation_left",
+                "type" : "diagnosis",
+                "value" : "Отклонение влево",
+                "level" : "yellow"
+            },
+            {
+                "name" : "sharp_left_deviation",
+                "type" : "diagnosis",
+                "value" : "Резкое отклонение влево",
+                "level" : "yellow"
+            },
+            {
+                "name" : "deviation_right",
+                "type" : "diagnosis",
+                "value" : "Отклонение вправо",
+                "level" : "yellow"
+            },
+            {
+                "name" : "sharp_right_deviation",
+                "type" : "diagnosis",
+                "value" : "Резкое отклонение вправо",
+                "level" : "yellow"
+            }
+        ]
+    },
+    {
+        "name" : "QRS_complex_violations",
+        "type" : "category",
+        "description" : "Нарушения комплекса QRS",
+        "value" : 
+        [
+            {
+                "name" : "left_ventricular_hypertrophy",
+                "type" : "diagnosis",
+                "value" : "Гипертрофия левого желудочка",
+                "level" : "yellow"
+            },
+            {
+                "name" : "right_ventricular_hypertrophy",
+                "type" : "diagnosis",
+                "value" : "Гипертрофия правого желудочка",
+                "level" : "yellow"
+            },
+            {
+                "name" : "low_voltage_QRS",
+                "type" : "diagnosis",
+                "value" : "Низковольтный QRS",
+                "level" : "yellow"
+            },
+            {
+                "name" : "blockade_bundle_branch_legs",
+                "type" : "category",
+                "description" : "Блокада ножек пучка Гиса",
+                "value" : 
+                [
+                    {
+                        "name" : "blockade_right_leg_bundle",
+                        "type" : "diagnosis",
+                        "value" : "Блокада правой ножки пучка Гиса",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "incomplete_blockade_right_leg_bundle",
+                        "type" : "diagnosis",
+                        "value" : "Неполная блокада правой ножки пучка Гиса",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "blockade_anterior_branch_left_branch_bundle",
+                        "type" : "diagnosis",
+                        "value" : "Блокада передней ветви левой ножки пучка Гиса",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "blockade_posterior_branch_left_branch_bundle",
+                        "type" : "diagnosis",
+                        "value" : "Блокада задней ветви левой ножки пучка Гиса",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "blockade_left_bundle_branch_leg",
+                        "type" : "diagnosis",
+                        "value" : "Блокада левой ножки пучка Гиса",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "incomplete_left_bundle_branch_blockade",
+                        "type" : "diagnosis",
+                        "value" : "Неполная блокада левой ножки пучка Гиса",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "blockade_both_legs_bundle",
+                        "type" : "diagnosis",
+                        "value" : "Блокада обеих ножек пучка Гиса",
+                        "level" : "red"
+                    }
+                ]
+            },
+            {
+                "name" : "abnormalities_Q",
+                "type" : "category",
+                "description" : "Нарушения зубца Q",
+                "value" : 
+                [
+                    {
+                        "name" : "abnormalities_Q_before_frontal",
+                        "type" : "diagnosis",
+                        "value" : "Переднебоковой",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "abnormalities_Q_front",
+                        "type" : "diagnosis",
+                        "value" : "Передний",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "abnormalities_Q_anteroferra",
+                        "type" : "diagnosis",
+                        "value" : "Переднеперегородочный",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "abnormalities_Q_lower_wall",
+                        "type" : "diagnosis",
+                        "value" : "Нижней стенки",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "abnormalities_Q_right ventricle",
+                        "type" : "diagnosis",
+                        "value" : "Правого желудочка",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "abnormalities_Q_rear_wall",
+                        "type" : "diagnosis",
+                        "value" : "Задней стенки",
+                        "level" : "yellow"
+                    },
+                    {
+                        "name" : "abnormalities_Q_lateral",
+                        "type" : "diagnosis",
+                        "value" : "Латеральный",
+                        "level" : "yellow"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name" : "ST_segment_disorders",
+        "type" : "category",
+        "description" : "Нарушения сегмента ST",
+        "value" : 
+        [
+            {
+                "name" : "MI_with_ST_lift",
+                "type" : "category",
+                "description" : "ИМ с подъемом ST",
+                "value" : 
+                [
+                    {
+                        "name" : "MI_with_ST_lift_before_frontal",
+                        "type" : "diagnosis",
+                        "value" : "Переднебоковой",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "MI_with_ST_lift_front",
+                        "type" : "diagnosis",
+                        "value" : "Передний",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "MI_with_ST_lift_lower",
+                        "type" : "diagnosis",
+                        "value" : "Нижний",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "MI_with_ST_lift_rear_wall",
+                        "type" : "diagnosis",
+                        "value" : "Задней стенки",
+                        "level" : "red"
+                    }
+                ]
+            },
+            {
+                "name" : "MI_with_ST_depression",
+                "type" : "category",
+                "description" : "ИМ с депрессией ST",
+                "value" : 
+                [
+                    {
+                        "name" : "MI_with_ST_depression_before_frontal",
+                        "type" : "diagnosis",
+                        "value" : "Переднебоковой",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "MI_with_ST_depression_front",
+                        "type" : "diagnosis",
+                        "value" : "Передний",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "MI_with_ST_depression_lower",
+                        "type" : "diagnosis",
+                        "value" : "Нижний",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "MI_with_ST_depression_rear_wall",
+                        "type" : "diagnosis",
+                        "value" : "Задней стенки",
+                        "level" : "red"
+                    }
+                ]
+            },
+            {
+                "name" : "ischemia",
+                "type" : "category",
+                "description" : "Ишемия",
+                "value" : 
+                [
+                    {
+                        "name" : "ischemia_before_frontal",
+                        "type" : "diagnosis",
+                        "value" : "Переднебоковой",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "ischemia_front",
+                        "type" : "diagnosis",
+                        "value" : "Передний",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "ischemia_lower",
+                        "type" : "diagnosis",
+                        "value" : "Нижний",
+                        "level" : "red"
+                    },
+                    {
+                        "name" : "ischemia_rear_wall",
+                        "type" : "diagnosis",
+                        "value" : "Задней стенки",
+                        "level" : "red"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name" : "impaired_T_wave",
+        "type" : "category",
+        "description" : "Нарушения зубца T",
+        "value" : 
+        [
+            {
+                "name" : "impaired_T_wave_lead_i",
+                "type" : "diagnosis",
+                "value" : "I",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_ii",
+                "type" : "diagnosis",
+                "value" : "II",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_iii",
+                "type" : "diagnosis",
+                "value" : "III",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_avr",
+                "type" : "diagnosis",
+                "value" : "aVR",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_avl",
+                "type" : "diagnosis",
+                "value" : "aVL",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_avf",
+                "type" : "diagnosis",
+                "value" : "aVF",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_v1",
+                "type" : "diagnosis",
+                "value" : "V1",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_v2",
+                "type" : "diagnosis",
+                "value" : "V2",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_v3",
+                "type" : "diagnosis",
+                "value" : "V3",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_v4",
+                "type" : "diagnosis",
+                "value" : "V4",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_v5",
+                "type" : "diagnosis",
+                "value" : "V5",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impaired_T_wave_lead_v6",
+                "type" : "diagnosis",
+                "value" : "V6",
+                "level" : "yellow"
+            }
+        ]
+    },
+    {
+        "name" : "QT_interval",
+        "type" : "category",
+        "description" : "Интервал QT",
+        "value" : 
+        [
+            {
+                "name" : "extended_QT_interval",
+                "type" : "diagnosis",
+                "value" : "Удлиненный интервал QT",
+                "level" : "yellow"
+            },
+            {
+                "name" : "shortened_QT_interval",
+                "type" : "diagnosis",
+                "value" : "Укороченный интервал QT",
+                "level" : "yellow"
+            }
+        ]
+    },
+    {
+        "name" : "states",
+        "type" : "category",
+        "description" : "Состояния",
+        "value" : 
+        [
+            {
+                "name" : "intoxication_cardiac_glycosides",
+                "type" : "diagnosis",
+                "value" : "Интоксикация сердечными гликозидами",
+                "level" : "red"
+            },
+            {
+                "name" : "embolism_pulmonary_artery",
+                "type" : "diagnosis",
+                "value" : "Эмболия легочной артерии",
+                "level" : "red"
+            }
+        ]
+    },
+    {
+        "name" : "pacing",
+        "type" : "category",
+        "description" : "Электрокардиостимуляция",
+        "value" : 
+        [
+            {
+                "name" : "atrial_Stimulation",
+                "type" : "diagnosis",
+                "value" : "Стимуляция предсердий",
+                "level" : "yellow"
+            },
+            {
+                "name" : "stimulation_ventricles",
+                "type" : "diagnosis",
+                "value" : "Стимуляция желудочков",
+                "level" : "yellow"
+            },
+            {
+                "name" : "impairment_stimulation",
+                "type" : "diagnosis",
+                "value" : "Нарушения стимуляции",
+                "level" : "red"
+            }
+        ]
+    }
+]
